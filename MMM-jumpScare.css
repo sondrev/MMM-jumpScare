@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'clock';
+  src: url(./alarm_clock.ttf);
+}
+
+.timeLeft {
+  font-family: "clock";
+  Font-size: 120px;
+  color: #c3bf42;
+}
+
+.timeEnded {
+  Font-size: 80x;
+  color: grey;
+}
+
+.imgScare1 {
+    position: fixed;
+    bottom: 0px;
+    left: 50%;
+    margin-left: -200px;
+    z-index: 0;
+}
+
+.imgScare2 {
+    position: fixed;
+    bottom: 475px;
+    left: 50%;
+    margin-left: -200px;
+    z-index: 1000;
+
+    transform:scale(2,2);
+}
+
+
+.doooom {
+  font-size: 80px;
+  color: white;
+}
+
+.black_overlay2 {
+  position: fixed;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100%;
+}
+
+.fullscreenApp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
